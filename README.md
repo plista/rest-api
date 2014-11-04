@@ -11,11 +11,11 @@ visit https://api.plista.com/statistics/docs/index.html
 
   Pay attention to the *Access-Control-Allow-Headers* header - it tells us how we need to authenticate our REST requests:
 
-  ##Option 1## 
+  ##Option 1 
   * X-PLISTA-USER-EMAIL: your-email@address.com
   * X-PLISTA-USER-PASSSWORD : your-plista-password
 
-  ##Option 2##
+  ##Option 2
   * X-PLISTA-USER-EMAIL: your-email@address.com
   * X-PLISTA-USER-TOKEN: your-md5-user-token-received-as-cookie-when-logged-in
 

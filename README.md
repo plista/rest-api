@@ -25,10 +25,11 @@ visit https://api.plista.com/statistics/docs/index.html
   When you supply these headers (either combination above), your request will be authenticated and you will be able to make requests and get valid responses.
 
 ##Testing the REST API Services
-  * The interface provided under https://api.plista.com/statistics/docs/index.html provides you also the possibility to make actual API requests and see what the response would be. You are encouraged to play around with the tools provided and familiarize yourself with the response types and outputs. Also - the API's are versioned and each major version is guaranteed to be backwards compatible with its minor releases. Hey, we care! :)
+  * The interface provided under https://api.plista.com/statistics/docs/index.html provides you also the possibility to make actual API requests and see what the response would be. You are encouraged to play around with the tools provided and familiarize yourself with the response types and outputs.
 
 ##Versioning
-  * By default, all major versions are backwards compatible through their minor versions, and could (but not guaranteed) be backwards compatible over major versions.
+  * As soon as it is not possible to change the API without breaking the backwards compatibility, the Minor version number will be increased. By this definition, adding new functions, will never lead to a number change.
+  * As soon as the system changes in its structure, the Major number will be increased. An example could be the authorization system or switching between SOA and Rest
   * To specify which API version to use - note the versions availabe at the top of the interface
   * Specify the 'Accept' header to the version you need, ex. application/json will get the latest version. To use a specific version, ex. version 0.1 always, specify the following header:
   * Accept: application/vnd.plista.0.1+json

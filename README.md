@@ -10,11 +10,11 @@ visit https://api.plista.com/statistics/docs/index.html
   * Select 'Try it out' - you will see some information - Important to note is the **Response Headers** section
   * Pay attention to the *Access-Control-Allow-Headers* header - it tells us how we need to authenticate our REST requests:
   * Option 1. 
-    * X-PLISTA-USER-EMAIL: <your_email@address.com>
-    * X-PLISTA-USER-PASSSWORD : <your_plista_password>
+    * X-PLISTA-USER-EMAIL: your-email@address.com
+    * X-PLISTA-USER-PASSSWORD : your-plista-password
   * Option 2.
-    * X-PLISTA-USER-EMAIL: <your_email@address.com>
-    * X-PLISTA-USER-TOKEN: <your_plista_token_received_as_cookie>
+    * X-PLISTA-USER-EMAIL: your-email@address.com
+    * X-PLISTA-USER-TOKEN: your-md5-user-token-received-as-cookie-when-logged-in
 
-  * When you supply these headers, your request will be authenticated and you will be able to make requests and get valid responses.
+  * When you supply these headers (either combination 1. or 2. above), your request will be authenticated and you will be able to make requests and get valid responses.
   * Soon you will also be able to use a generated API Token to authenticate

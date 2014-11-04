@@ -18,11 +18,11 @@ visit https://api.plista.com/statistics/docs/index.html
 ##Authentication Option 2
   * X-PLISTA-USER-EMAIL: your-email@address.com
   * X-PLISTA-USER-TOKEN: your-md5-user-token-received-as-cookie-when-logged-in
-
-  When you supply these headers (either combination 1. or 2. above), your request will be authenticated and you will be able to make requests and get valid responses.
   
 ##Authentication Option 3
-  * Soon you will also be able to use a generated API Token to authenticate
+  * Soon you will also be able to use a generated API Token to authenticate - it will be X-PLISTA-API-TOKEN
+
+  When you supply these headers (either combination above), your request will be authenticated and you will be able to make requests and get valid responses.
 
 ##Testing the REST API Services
   * The interface provided under https://api.plista.com/statistics/docs/index.html provides you also the possibility to make actual API requests and see what the response would be. You are encouraged to play around with the tools provided and familiarize yourself with the response types and outputs. Also - the API's are versioned and each major version is guaranteed to be backwards compatible with its minor releases. Hey, we care! :)
